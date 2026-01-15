@@ -12,11 +12,11 @@ export const Header: React.FC = () => {
   };
 
   return (
-    <header className="w-full h-130 bg-gray-light border-b border-gray-border">
+    <header className="w-full h-130 bg-white border-b border-gray">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
-            <span className="font-young-serif text-5xl font-normal leading-none tracking-[0.05em] text-center align-middle text-gray-dark">
+            <span className="font-young-serif text-5xl font-normal leading-none tracking-[0.05em] text-center align-middle text-black-dark">
               FiGen
             </span>
             <img src={iconHeader.src} alt="Icon Header" className="w-16 h-16" />
@@ -24,14 +24,14 @@ export const Header: React.FC = () => {
           <nav className="hidden md:flex items-center gap-6">
             <a
               href="#contact"
-              className="font-young-serif text-[20px] font-normal leading-none tracking-normal text-center align-middle text-gray-dark hover:text-primary-gradient-start transition-colors"
+              className="font-young-serif text-[20px] font-normal leading-none tracking-normal text-center align-middle text-black-dark hover:text-primary-gradient-start transition-colors"
             >
               Contact us
             </a>
 
             <a
               href="#contact"
-              className="font-young-serif text-[20px] font-normal leading-none tracking-normal text-center align-middle text-gray-dark hover:text-primary-gradient-start transition-colors"
+              className="font-young-serif text-[20px] font-normal leading-none tracking-normal text-center align-middle text-black-dark hover:text-primary-gradient-start transition-colors"
             >
               About us
             </a>

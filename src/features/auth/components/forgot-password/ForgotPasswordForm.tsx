@@ -6,7 +6,7 @@ export const ForgotPasswordForm: React.FC = () => {
 
   return (
     <form className="space-y-4">
-      <p className="text-sm text-gray-text">
+      <p className="text-sm text-black-60">
         Please enter the email address or phone number you'd like your password reset information sent to
       </p>
       <Input

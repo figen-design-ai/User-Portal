@@ -25,15 +25,15 @@ export const IdeaInput: React.FC<IdeaInputProps> = ({ onIdeaSubmit }) => {
           onChange={(e) => setIdea(e.target.value)}
           placeholder="Describe your design ideas"
           rows={3}
-          className="w-full px-6 py-4 pr-14 pb-14 rounded-xl border border-gray-border bg-white text-gray-dark placeholder:text-gray-text focus:outline-none focus:ring-2 focus:ring-primary-gradient-start focus:border-transparent transition-colors text-lg resize-none"
+          className="w-full px-6 py-4 pr-14 pb-14 rounded-xl border border-gray bg-white text-black-dark placeholder:text-black-60 focus:outline-none focus:ring-2 focus:ring-primary-gradient-start focus:border-transparent transition-colors text-lg resize-none"
         />
         <button
           type="submit"
-          className="absolute bottom-3 right-3 p-2 rounded-full bg-gray-light hover:bg-gray-border transition-colors"
+          className="absolute bottom-3 right-3 p-2 rounded-full bg-gray-light hover:bg-gray transition-colors"
           aria-label="Submit idea"
         >
           <svg
-            className="w-5 h-5 text-gray-dark"
+            className="w-5 h-5 text-black-dark"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"

@@ -18,8 +18,8 @@ export const Button: React.FC<ButtonProps> = ({
   const baseStyles = "rounded-lg font-medium transition-colors";
   
   const variants = {
-    primary: "bg-gray-dark text-white border border-gray-dark hover:bg-gray-800",
-    secondary: "bg-transparent text-gray-dark border border-gray-dark hover:bg-primary-pink hover:border-primary-black",
+    primary: "bg-black-dark text-white border border-black-dark hover:bg-black-75",
+    secondary: "bg-transparent text-black-dark border border-black-dark hover:bg-pink-light hover:border-black",
   };
   
   const sizes = {

@@ -73,12 +73,12 @@ export const Bottom: React.FC = () => {
   );
 
   return (
-    <footer className="bg-[#5e5e5e] text-gray-200">
+    <footer className="bg-black-60 text-white">
       <div className="container mx-auto px-4 py-12">
         <div className="flex flex-col md:flex-row gap-8 md:gap-16 lg:gap-24">
           {/* Brand Section */}
           <div className="flex-shrink-0 text-left">
-            <h2 className="text-3xl font-bold text-gray-100">FiGen</h2>
+            <h2 className="text-3xl font-bold text-white">FiGen</h2>
           </div>
 
           {/* Navigation Links */}
@@ -87,7 +87,7 @@ export const Bottom: React.FC = () => {
             <div className="flex flex-col gap-6 text-right">
               {productSection && (
                 <div className="flex flex-col items-end">
-                  <h3 className="text-sm font-semibold text-gray-overlay mb-4 uppercase tracking-wide">
+                  <h3 className="text-sm font-semibold text-black-60 mb-4 uppercase tracking-wide">
                     {productSection.title}
                   </h3>
                   <ul className="space-y-3">
@@ -95,7 +95,7 @@ export const Bottom: React.FC = () => {
                       <li key={link.label}>
                         <a
                           href={link.href || "#"}
-                          className="text-sm text-gray-200 hover:text-white transition-colors cursor-pointer"
+                          className="text-sm text-white hover:text-white transition-colors cursor-pointer"
                         >
                           {link.label}
                         </a>
@@ -106,7 +106,7 @@ export const Bottom: React.FC = () => {
               )}
               {plansSection && (
                 <div className="flex flex-col items-end">
-                  <h3 className="text-sm font-semibold text-gray-overlay mb-4 uppercase tracking-wide">
+                  <h3 className="text-sm font-semibold text-black-60 mb-4 uppercase tracking-wide">
                     {plansSection.title}
                   </h3>
                   <ul className="space-y-3">
@@ -114,7 +114,7 @@ export const Bottom: React.FC = () => {
                       <li key={link.label}>
                         <a
                           href={link.href || "#"}
-                          className="text-sm text-gray-200 hover:text-white transition-colors cursor-pointer"
+                          className="text-sm text-white hover:text-white transition-colors cursor-pointer"
                         >
                           {link.label}
                         </a>
@@ -128,7 +128,7 @@ export const Bottom: React.FC = () => {
             {/* Other sections */}
             {otherSections.map((section) => (
               <div key={section.title} className="flex flex-col text-right items-end">
-                <h3 className="text-sm font-semibold text-gray-overlay mb-4 uppercase tracking-wide">
+                <h3 className="text-sm font-semibold text-black-60 mb-4 uppercase tracking-wide">
                   {section.title}
                 </h3>
                 <ul className="space-y-3">
@@ -136,7 +136,7 @@ export const Bottom: React.FC = () => {
                     <li key={link.label}>
                       <a
                         href={link.href || "#"}
-                        className="text-sm text-gray-200 hover:text-white transition-colors cursor-pointer"
+                        className="text-sm text-white hover:text-white transition-colors cursor-pointer"
                       >
                         {link.label}
                       </a>

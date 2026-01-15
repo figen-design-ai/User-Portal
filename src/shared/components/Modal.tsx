@@ -36,7 +36,7 @@ export const Modal: React.FC<ModalProps> = ({
       onClick={onClose}
     >
       <div
-        className="absolute inset-0 bg-black bg-opacity-50 backdrop-blur-sm"
+        className="absolute inset-0 bg-black-60 backdrop-blur-sm"
         aria-hidden="true"
       />
       <div
@@ -50,14 +50,13 @@ export const Modal: React.FC<ModalProps> = ({
         {title && (
           <div className="relative flex items-center justify-center px-6 pt-6 pb-2">
             <h2 
-              className="text-[36px] font-normal leading-[100%] text-center text-gray-dark"
-              style={{ fontFamily: "Noto Serif Gujarati" }}
+              className="text-[36px] font-normal leading-[100%] text-center text-black-dark font-noto-serif-gujarati"
             >
               {title}
             </h2>
             <button
               onClick={onClose}
-              className="absolute right-6 top-1/2 -translate-y-1/2 text-gray-text hover:text-gray-dark transition-colors"
+              className="absolute right-6 top-1/2 -translate-y-1/2 text-black-60 hover:text-black-dark transition-colors"
               aria-label="Close modal"
             >
               <svg

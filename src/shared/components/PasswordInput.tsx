@@ -27,7 +27,7 @@ export const PasswordInput: React.FC<PasswordInputProps> = ({
       <button
         type="button"
         onClick={() => setShowPassword(!showPassword)}
-        className="absolute right-3 top-9 text-gray-text hover:text-gray-dark transition-colors"
+        className="absolute right-3 top-9 text-black-60 hover:text-black-dark transition-colors"
         aria-label={showPassword ? "Hide password" : "Show password"}
       >
         <svg

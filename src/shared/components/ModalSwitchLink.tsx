@@ -13,7 +13,7 @@ export const ModalSwitchLink: React.FC<ModalSwitchLinkProps> = ({
 }) => {
   return (
     <div className="text-center">
-      <p className="text-sm text-gray-text">
+      <p className="text-sm text-black-60">
         {promptText}{" "}
         <button
           type="button"

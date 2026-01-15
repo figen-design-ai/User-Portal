@@ -30,7 +30,7 @@ export const HeroSection: React.FC = () => {
       <div className="relative z-10 w-full max-w-5xl mx-auto flex flex-col min-h-screen">
         <div className="flex flex-col items-center text-center space-y-8 flex-1 justify-center">
           <h1
-            className="font-young-serif font-normal text-[64px] leading-[100%] tracking-[0.05em] text-center align-middle text-gray-dark"
+            className="font-young-serif font-normal text-[64px] leading-[100%] tracking-[0.05em] text-center align-middle text-black-dark"
             style={{ textShadow: "0px 4px 4px rgba(45, 45, 45, 1)" }}
           >
             Ideas making real with FiGen
@@ -45,8 +45,7 @@ export const HeroSection: React.FC = () => {
         </div>
 
         <p
-          className="font-young-serif font-normal text-[24px] leading-[100%] tracking-normal text-center max-w-4xl mx-auto"
-          style={{ color: "rgba(0, 0, 0, 1)" }}
+          className="font-young-serif font-normal text-[24px] leading-[100%] tracking-normal text-center max-w-4xl mx-auto text-black"
         >
           From idea to prototype—faster than ever. Design with AI and watch your
           product come alive.

@@ -15,13 +15,13 @@ export const Checkbox: React.FC<CheckboxProps> = ({
       <input
         type="checkbox"
         className={cn(
-          "w-4 h-4 border-gray-border rounded text-black checked:text-black checked:bg-white focus:ring-black accent-black",
+          "w-4 h-4 border-gray rounded text-black checked:text-black checked:bg-white focus:ring-black accent-black",
           className
         )}
         {...props}
       />
       {label && (
-        <span className="text-sm text-gray-dark">{label}</span>
+        <span className="text-sm text-black-dark">{label}</span>
       )}
     </label>
   );
