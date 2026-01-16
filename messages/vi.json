@@ -1,0 +1,106 @@
+{
+	"common": {
+		"searchTemplate": "Tìm kiếm mẫu",
+		"contactUs": "Liên hệ chúng tôi",
+		"aboutUs": "Về chúng tôi",
+		"login": "Đăng nhập",
+		"signUp": "Đăng ký",
+		"orContinueWithEmail": "Hoặc tiếp tục với email",
+		"continueWithGoogle": "Tiếp tục với Google",
+		"continueWithFacebook": "Tiếp tục với Facebook",
+		"continueWithGithub": "Tiếp tục với Github"
+	},
+	"home": {
+		"title": "Biến ý tưởng thành hiện thực với FiGen",
+		"subtitle": "Từ ý tưởng đến nguyên mẫu—nhanh hơn bao giờ hết. Thiết kế với AI và xem sản phẩm của bạn trở nên sống động.",
+		"ideaPlaceholder": "Mô tả ý tưởng thiết kế của bạn",
+		"prompts": {
+			"onboardingFlow": "Quy trình Onboarding",
+			"dataDashboard": "Bảng điều khiển dữ liệu",
+			"gradientGallery": "Thư viện Gradient"
+		}
+	},
+	"auth": {
+		"login": {
+			"title": "Đăng nhập",
+			"dontHaveAccount": "Chưa có tài khoản?",
+			"emailLabel": "Địa chỉ email hoặc số điện thoại",
+			"emailPlaceholder": "Nhập địa chỉ email hoặc số điện thoại của bạn",
+			"passwordLabel": "Mật khẩu",
+			"passwordPlaceholder": "Nhập mật khẩu của bạn",
+			"rememberMe": "Ghi nhớ đăng nhập",
+			"forgotPassword": "Quên mật khẩu?",
+			"submit": "Đăng nhập"
+		},
+		"signup": {
+			"title": "Đăng ký",
+			"alreadyHaveAccount": "Đã có tài khoản?",
+			"emailLabel": "Địa chỉ email hoặc số điện thoại",
+			"emailPlaceholder": "Nhập địa chỉ email hoặc số điện thoại của bạn",
+			"passwordLabel": "Mật khẩu",
+			"passwordPlaceholder": "Nhập mật khẩu của bạn",
+			"confirmPasswordLabel": "Xác nhận mật khẩu",
+			"confirmPasswordPlaceholder": "Nhập mật khẩu của bạn",
+			"newsletter": "Vui lòng cập nhật cho tôi qua email về tin tức mới nhất, cập nhật sự kiện",
+			"submit": "Tạo tài khoản"
+		},
+		"forgotPassword": {
+			"title": "Quên mật khẩu",
+			"description": "Vui lòng nhập địa chỉ email hoặc số điện thoại mà bạn muốn nhận thông tin đặt lại mật khẩu",
+			"emailLabel": "Địa chỉ email hoặc số điện thoại",
+			"emailPlaceholder": "Nhập địa chỉ email hoặc số điện thoại của bạn",
+			"requestResetLink": "Yêu cầu liên kết đặt lại",
+			"backToLogin": "Quay lại đăng nhập"
+		}
+	},
+	"footer": {
+		"product": "SẢN PHẨM",
+		"plans": "GÓI",
+		"useCases": "TRƯỜNG HỢP SỬ DỤNG",
+		"resources": "TÀI NGUYÊN",
+		"company": "CÔNG TY",
+		"sections": {
+			"product": {
+				"design": "Thiết kế",
+				"devMode": "Chế độ Dev",
+				"ai": "AI",
+				"downloads": "Tải xuống"
+			},
+			"plans": {
+				"pricing": "Giá",
+				"enterprise": "Doanh nghiệp",
+				"organization": "Tổ chức",
+				"professional": "Chuyên nghiệp"
+			},
+			"useCases": {
+				"uiDesign": "Thiết kế UI",
+				"uxDesign": "Thiết kế UX",
+				"wireframing": "Wireframing",
+				"diagraming": "Sơ đồ",
+				"prototyping": "Tạo mẫu",
+				"brainstorming": "Động não",
+				"onlineWhiteboard": "Bảng trắng trực tuyến",
+				"aiAppBuilder": "Trình tạo ứng dụng AI",
+				"aiWebsiteBuilder": "Trình tạo website AI"
+			},
+			"resources": {
+				"blog": "Blog",
+				"bestPractices": "Thực hành tốt nhất",
+				"qrCodeGenerator": "Trình tạo mã QR",
+				"templates": "Mẫu",
+				"resourceLibrary": "Thư viện tài nguyên",
+				"support": "Hỗ trợ"
+			},
+			"company": {
+				"events": "Sự kiện",
+				"customers": "Khách hàng",
+				"careers": "Tuyển dụng",
+				"investors": "Nhà đầu tư"
+			}
+		}
+	},
+	"metadata": {
+		"title": "FiGen - Biến ý tưởng thành hiện thực",
+		"description": "Từ ý tưởng đến nguyên mẫu—nhanh hơn bao giờ hết. Thiết kế với AI và xem sản phẩm của bạn trở nên sống động."
+	}
+}

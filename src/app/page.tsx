@@ -1,14 +1,6 @@
-"use client";
+import { redirect } from 'next/navigation'
+import { routing } from '@/i18n/routing'
 
-import React from "react";
-import { HomePage } from "@/features/home";
-import { AuthModal } from "@/features/auth";
-
-export default function Page() {
-  return (
-    <>
-      <HomePage />
-      <AuthModal />
-    </>
-  );
+export default function RootPage() {
+	redirect(`/${routing.defaultLocale}`)
 }

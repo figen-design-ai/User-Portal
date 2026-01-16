@@ -1,23 +1,29 @@
-import React from "react";
-import { Button, ModalSwitchLink } from "@/shared/view";
-import { ForgotPasswordForm } from "./ForgotPasswordForm";
-import { AuthModalContentProps } from "../../types";
+'use client'
+
+import React from 'react'
+import { useTranslations } from 'next-intl'
+import { Button, ModalSwitchLink } from '@/shared/view'
+import { ForgotPasswordForm } from './ForgotPasswordForm'
+import { AuthModalContentProps } from '../../types'
 
 export const ForgotPasswordModalContent: React.FC<AuthModalContentProps> = ({
-  onSwitchModal,
-  onSubmit,
+	onSwitchModal,
+	onSubmit
 }) => {
-  return (
-    <div className="space-y-6">
-      <ForgotPasswordForm />
-      <Button className="w-full" onClick={onSubmit} variant="ctaBtnModal">
-        Request reset link
-      </Button>
-      <ModalSwitchLink
-        promptText=""
-        linkText="Back to login"
-        onClick={() => onSwitchModal("login")}
-      />
-    </div>
-  );
-};
+	const t = useTranslations('auth.forgotPassword')
+	const tCommon = useTranslations('common')
+
+	return (
+		<div className="space-y-6">
+			<ForgotPasswordForm />
+			<Button className="w-full" onClick={onSubmit} variant="ctaBtnModal">
+				{t('requestResetLink')}
+			</Button>
+			<ModalSwitchLink
+				promptText=""
+				linkText={t('backToLogin')}
+				onClick={() => onSwitchModal('login')}
+			/>
+		</div>
+	)
+}
