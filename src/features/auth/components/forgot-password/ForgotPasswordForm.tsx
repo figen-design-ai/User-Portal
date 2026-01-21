@@ -16,7 +16,7 @@ export const ForgotPasswordForm: React.FC = () => {
 				type="text"
 				placeholder={t('emailPlaceholder')}
 				value={email}
-				onChange={(e) => setEmail(e.target.value)}
+				onChange={e => setEmail(e.target.value)}
 			/>
 		</form>
 	)

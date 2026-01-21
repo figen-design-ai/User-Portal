@@ -21,19 +21,19 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onForgotPassword }) => {
 				type="text"
 				placeholder={t('emailPlaceholder')}
 				value={email}
-				onChange={(e) => setEmail(e.target.value)}
+				onChange={e => setEmail(e.target.value)}
 			/>
 			<PasswordInput
 				label={t('passwordLabel')}
 				placeholder={t('passwordPlaceholder')}
 				value={password}
-				onChange={(e) => setPassword(e.target.value)}
+				onChange={e => setPassword(e.target.value)}
 			/>
 			<div className="flex items-center justify-between">
 				<Checkbox
 					label={t('rememberMe')}
 					checked={rememberMe}
-					onChange={(e) => setRememberMe(e.target.checked)}
+					onChange={e => setRememberMe(e.target.checked)}
 				/>
 				<button
 					type="button"

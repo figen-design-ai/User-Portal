@@ -8,10 +8,9 @@ import { AuthModalContentProps } from '../../types'
 
 export const ForgotPasswordModalContent: React.FC<AuthModalContentProps> = ({
 	onSwitchModal,
-	onSubmit
+	onSubmit,
 }) => {
 	const t = useTranslations('auth.forgotPassword')
-	const tCommon = useTranslations('common')
 
 	return (
 		<div className="space-y-6">

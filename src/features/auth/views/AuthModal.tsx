@@ -12,13 +12,7 @@ import { AuthModalContentProps } from '../types'
 
 export const AuthModal: React.FC = () => {
 	const t = useTranslations('auth')
-	const {
-		isModalOpen,
-		modalType,
-		closeModal,
-		setModalType,
-		login
-	} = useAuth()
+	const { isModalOpen, modalType, closeModal, setModalType, login } = useAuth()
 
 	const getModalTitle = (type: AuthModalType): string => {
 		switch (type) {
@@ -58,7 +52,6 @@ export const AuthModal: React.FC = () => {
 	}
 
 	const handleSocialLogin = (provider: 'google' | 'facebook' | 'github') => {
-		console.log(`Login with ${provider}`)
 		login({ email: `${provider}@example.com`, name: provider })
 	}
 
@@ -72,7 +65,7 @@ export const AuthModal: React.FC = () => {
 				modalType,
 				onSwitchModal: handleSwitchModal,
 				onSocialLogin: handleSocialLogin,
-				onSubmit: handleSubmit
+				onSubmit: handleSubmit,
 			})}
 		</Modal>
 	)

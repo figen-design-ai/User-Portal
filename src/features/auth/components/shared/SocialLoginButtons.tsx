@@ -9,7 +9,7 @@ interface SocialLoginButtonsProps {
 }
 
 export const SocialLoginButtons: React.FC<SocialLoginButtonsProps> = ({
-	onSocialLogin
+	onSocialLogin,
 }) => {
 	const t = useTranslations('common')
 

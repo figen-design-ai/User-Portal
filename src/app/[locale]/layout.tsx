@@ -10,11 +10,11 @@ import '@/styles/globals.css'
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' })
 
 export function generateStaticParams() {
-	return routing.locales.map((locale) => ({ locale }))
+	return routing.locales.map(locale => ({ locale }))
 }
 
 export async function generateMetadata({
-	params
+	params,
 }: {
 	params: Promise<{ locale: string }>
 }): Promise<Metadata> {
@@ -22,23 +22,23 @@ export async function generateMetadata({
 	const messages = await getMessages({ locale })
 
 	return {
-		title: (messages.metadata as any)?.title || 'FiGen - Ideas making real',
+		title: messages.metadata?.title || 'FiGen - Ideas making real',
 		description:
-			(messages.metadata as any)?.description ||
-			'From idea to prototype—faster than ever. Design with AI and watch your product come alive.'
+			messages.metadata?.description ||
+			'From idea to prototype—faster than ever. Design with AI and watch your product come alive.',
 	}
 }
 
 export default async function LocaleLayout({
 	children,
-	params
+	params,
 }: {
 	children: React.ReactNode
 	params: Promise<{ locale: string }>
 }) {
 	const { locale } = await params
 
-	if (!routing.locales.includes(locale as any)) {
+	if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
 		notFound()
 	}
 

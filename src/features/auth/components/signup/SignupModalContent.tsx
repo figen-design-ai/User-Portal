@@ -10,7 +10,7 @@ import { AuthModalContentProps } from '../../types'
 export const SignupModalContent: React.FC<AuthModalContentProps> = ({
 	onSwitchModal,
 	onSocialLogin,
-	onSubmit
+	onSubmit,
 }) => {
 	const t = useTranslations('auth.signup')
 	const tCommon = useTranslations('common')

@@ -18,24 +18,24 @@ export const SignupForm: React.FC = () => {
 				type="text"
 				placeholder={t('emailPlaceholder')}
 				value={email}
-				onChange={(e) => setEmail(e.target.value)}
+				onChange={e => setEmail(e.target.value)}
 			/>
 			<PasswordInput
 				label={t('passwordLabel')}
 				placeholder={t('passwordPlaceholder')}
 				value={password}
-				onChange={(e) => setPassword(e.target.value)}
+				onChange={e => setPassword(e.target.value)}
 			/>
 			<PasswordInput
 				label={t('confirmPasswordLabel')}
 				placeholder={t('confirmPasswordPlaceholder')}
 				value={confirmPassword}
-				onChange={(e) => setConfirmPassword(e.target.value)}
+				onChange={e => setConfirmPassword(e.target.value)}
 			/>
 			<Checkbox
 				label={t('newsletter')}
 				checked={newsletter}
-				onChange={(e) => setNewsletter(e.target.checked)}
+				onChange={e => setNewsletter(e.target.checked)}
 			/>
 		</form>
 	)

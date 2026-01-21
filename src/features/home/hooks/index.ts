@@ -1,3 +1,1 @@
-// Home feature hooks will be added here when needed
-
-export {};
+export { useFooterSections } from './useFooterSections'

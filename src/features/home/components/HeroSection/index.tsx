@@ -13,23 +13,19 @@ export const HeroSection: React.FC = () => {
 	const defaultPrompts: PromptButton[] = [
 		{ id: '1', label: t('prompts.onboardingFlow') },
 		{ id: '2', label: t('prompts.dataDashboard') },
-		{ id: '3', label: t('prompts.gradientGallery') }
+		{ id: '3', label: t('prompts.gradientGallery') },
 	]
 
-	const handleIdeaSubmit = (idea: string) => {
-		console.log('Idea submitted:', idea)
-	}
+	const handleIdeaSubmit = () => {}
 
-	const handlePromptClick = (prompt: PromptButton) => {
-		console.log('Prompt clicked:', prompt)
-	}
+	const handlePromptClick = () => {}
 
 	return (
 		<div className="relative min-h-screen flex flex-col items-center justify-center px-4 py-20">
 			<div
 				className="absolute inset-0 bg-cover bg-center bg-no-repeat"
 				style={{
-					backgroundImage: `url(${backgroundImage.src})`
+					backgroundImage: `url(${backgroundImage.src})`,
 				}}
 			/>
 			<div className="relative z-10 w-full max-w-5xl mx-auto flex flex-col min-h-screen">

@@ -1,6 +1,7 @@
 'use client'
 
 import React from 'react'
+import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import { SearchBar, Button } from '@/shared/view'
 import { useAppDispatch } from '@/config/store'
@@ -23,7 +24,13 @@ export const Header: React.FC = () => {
 						<span className="font-young-serif text-5xl font-normal leading-none tracking-[0.05em] text-center align-middle text-black-dark">
 							FiGen
 						</span>
-						<img src={iconHeader.src} alt="Icon Header" className="w-16 h-16" />
+						<Image
+							src={iconHeader}
+							alt="Icon Header"
+							width={64}
+							height={64}
+							className="w-16 h-16"
+						/>
 					</div>
 					<nav className="hidden md:flex items-center gap-6">
 						<a

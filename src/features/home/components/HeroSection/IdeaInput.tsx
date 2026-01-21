@@ -28,7 +28,7 @@ export const IdeaInput: React.FC<IdeaInputProps> = ({ onIdeaSubmit }) => {
 			<div className="relative">
 				<textarea
 					value={idea}
-					onChange={(e) => setIdea(e.target.value)}
+					onChange={e => setIdea(e.target.value)}
 					placeholder={t('ideaPlaceholder')}
 					rows={3}
 					className="w-full px-6 py-4 pr-14 pb-14 rounded-xl border border-gray bg-white text-black-dark placeholder:text-black-60 focus:outline-none focus:ring-2 focus:ring-primary-gradient-start focus:border-transparent transition-colors text-lg resize-none"
