@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { useTranslations } from 'next-intl'
-import backgroundImage from '../../assets/background.jpg'
+import backgroundImage from '@/assets/feature/home/background.jpg'
 import { PromptButton } from '../../types'
 import { IdeaInput } from './IdeaInput'
 import { PromptButtons } from './PromptButtons'
