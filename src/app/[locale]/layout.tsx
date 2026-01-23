@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import { routing } from '@/i18n/routing'
 import { Providers } from '../providers'
 import '@/styles/globals.css'
+import { notoSansFont } from '../../fonts/font'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' })
 
@@ -46,7 +47,7 @@ export default async function LocaleLayout({
 
 	return (
 		<html lang={locale}>
-			<body className={inter.variable}>
+			<body className={`${inter.variable} ${notoSansFont.variable}`}>
 				<NextIntlClientProvider messages={messages}>
 					<Providers>{children}</Providers>
 				</NextIntlClientProvider>

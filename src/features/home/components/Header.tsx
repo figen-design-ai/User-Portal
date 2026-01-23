@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl'
 import { SearchBar, Button } from '@/shared/view'
 import { useAppDispatch } from '@/config/store'
 import { openModal } from '@/features/auth/hooks'
-import iconHeader from '../assets/icon_header.png'
+import iconHeader from '@/assets/feature/home/icon_header.png'
 
 export const Header: React.FC = () => {
 	const t = useTranslations('common')
