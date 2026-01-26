@@ -30,10 +30,13 @@ const config: Config = {
 					'500': '#1A1C21',
 				},
 				pink: {
-					light: '#FBDEF5',
-					DEFAULT: '#F6CCCC',
-					medium: '#F0A3A3',
-					bright: '#FFC9C9',
+					'100': '#ABEB68',
+					'200': '#FFCEDA',
+					'300': '#FFACC1',
+					'400': '#FF81A1',
+					'500': '#FF527E',
+					'600': '#FF2E63',
+					'700': '#D91A4A',
 				},
 				green: {
 					DEFAULT: '#34C759',
@@ -84,9 +87,19 @@ const config: Config = {
 					validation: '#FFD748',
 				},
 			},
+			zIndex: {
+				1: '1',
+				2: '2',
+				3: '3',
+				4: '4',
+				5: '5',
+				6: '6',
+				7: '7',
+				8: '8',
+				9: '9',
+			},
 			fontFamily: {
 				noto: ['var(--noto-sans-font)', 'Noto Sans'],
-				inter: ['var(--font-sans)', 'Inter'],
 			},
 			fontSize: {
 				'h-1': [
