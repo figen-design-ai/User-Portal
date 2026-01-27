@@ -92,6 +92,12 @@ export default [
 		},
 	},
 	{
+		files: ['tailwind.config.ts'],
+		rules: {
+			'max-lines': 'off',
+		},
+	},
+	{
 		ignores: [
 			'.next/**',
 			'out/**',
