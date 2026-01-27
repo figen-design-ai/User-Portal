@@ -3,6 +3,9 @@
 		"searchTemplate": "Search template",
 		"contactUs": "Contact us",
 		"aboutUs": "About us",
+		"navHome": "Home",
+		"navPricing": "Pricing",
+		"loginSignup": "Login/Signup",
 		"login": "Log in",
 		"signUp": "Sign up",
 		"orContinueWithEmail": "Or continue with email",
@@ -54,6 +57,13 @@
 		}
 	},
 	"footer": {
+		"subscribeNewsletters": "Subscribe Newsletters",
+		"enterYourEmail": "Enter your email",
+		"subscribeNow": "Subscribe Now",
+		"contact": "Contact",
+		"termsOfService": "Terms of Service",
+		"privacyPolicy": "Privacy Policy",
+		"copyright": "© 2025 Figen. All rights reserved.",
 		"product": "PRODUCT",
 		"plans": "PLANS",
 		"useCases": "USE CASES",

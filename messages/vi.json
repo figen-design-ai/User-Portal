@@ -3,6 +3,9 @@
 		"searchTemplate": "Tìm kiếm mẫu",
 		"contactUs": "Liên hệ chúng tôi",
 		"aboutUs": "Về chúng tôi",
+		"navHome": "Trang chủ",
+		"navPricing": "Giá",
+		"loginSignup": "Đăng nhập/Đăng ký",
 		"login": "Đăng nhập",
 		"signUp": "Đăng ký",
 		"orContinueWithEmail": "Hoặc tiếp tục với email",
@@ -54,6 +57,13 @@
 		}
 	},
 	"footer": {
+		"subscribeNewsletters": "Đăng ký nhận bản tin",
+		"enterYourEmail": "Nhập email của bạn",
+		"subscribeNow": "Đăng ký ngay",
+		"contact": "Liên hệ",
+		"termsOfService": "Điều khoản dịch vụ",
+		"privacyPolicy": "Chính sách bảo mật",
+		"copyright": "© 2025 Figen. Bảo lưu mọi quyền.",
 		"product": "SẢN PHẨM",
 		"plans": "GÓI",
 		"useCases": "TRƯỜNG HỢP SỬ DỤNG",

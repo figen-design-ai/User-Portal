@@ -100,6 +100,7 @@ const config: Config = {
 			},
 			fontFamily: {
 				noto: ['var(--noto-sans-font)', 'Noto Sans'],
+				kleeOne: ['var(--klee-one-font)', 'Klee One', 'serif'],
 			},
 			fontSize: {
 				'h-1': [
@@ -128,6 +129,18 @@ const config: Config = {
 				],
 				default: [
 					'1.25rem', //20
+					{
+						lineHeight: '1.2',
+					},
+				],
+				body: [
+					'1.125rem', //18
+					{
+						lineHeight: '1.2',
+					},
+				],
+				logo: [
+					'3rem', // 48
 					{
 						lineHeight: '1.2',
 					},
