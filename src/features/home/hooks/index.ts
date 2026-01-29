@@ -1,1 +1,0 @@
-export { useFooterSections } from './useFooterSections'

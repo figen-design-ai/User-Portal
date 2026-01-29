@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { routing } from '@/i18n/routing'
 import { Providers } from '../providers'
+import { MainLayout } from '@/shared/layouts'
 import '@/styles/globals.css'
 import { notoSansFont } from '../../fonts/font'
 
@@ -46,7 +47,9 @@ export default async function LocaleLayout({
 		<html lang={locale}>
 			<body className={notoSansFont.variable}>
 				<NextIntlClientProvider messages={messages}>
-					<Providers>{children}</Providers>
+					<Providers>
+						<MainLayout>{children}</MainLayout>
+					</Providers>
 				</NextIntlClientProvider>
 			</body>
 		</html>
