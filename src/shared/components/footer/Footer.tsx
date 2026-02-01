@@ -8,30 +8,26 @@ import { FooterNavAndSocial } from './components/FooterNavAndSocial'
 import { Bottom } from './components/Bottom'
 
 export const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
-	const {
-		navLinks,
-		copyright,
-		termsOfService,
-		privacyPolicy,
-		newsletterHeading,
-		newsletterPlaceholder,
-		newsletterButtonLabel,
-	} = useFooterContent()
+  const {
+    navLinks,
+    copyright,
+    termsOfService,
+    privacyPolicy,
+    newsletterHeading,
+    newsletterPlaceholder,
+    newsletterButtonLabel,
+  } = useFooterContent()
 
-	return (
-		<footer className="w-full bg-white" role="contentinfo">
-			<Newsletter
-				onSubscribe={onSubscribe}
-				heading={newsletterHeading}
-				placeholder={newsletterPlaceholder}
-				buttonLabel={newsletterButtonLabel}
-			/>
-			<FooterNavAndSocial navLinks={navLinks} />
-			<Bottom
-				copyright={copyright}
-				termsOfService={termsOfService}
-				privacyPolicy={privacyPolicy}
-			/>
-		</footer>
-	)
+  return (
+    <footer className="w-full bg-white" role="contentinfo">
+      <Newsletter
+        onSubscribe={onSubscribe}
+        heading={newsletterHeading}
+        placeholder={newsletterPlaceholder}
+        buttonLabel={newsletterButtonLabel}
+      />
+      <FooterNavAndSocial navLinks={navLinks} />
+      <Bottom copyright={copyright} termsOfService={termsOfService} privacyPolicy={privacyPolicy} />
+    </footer>
+  )
 }

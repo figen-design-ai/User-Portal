@@ -8,26 +8,26 @@ import { LoginForm } from './LoginForm'
 import { AuthModalContentProps } from '../../types'
 
 export const LoginModalContent: React.FC<AuthModalContentProps> = ({
-	onSwitchModal,
-	onSocialLogin,
-	onSubmit,
+  onSwitchModal,
+  onSocialLogin,
+  onSubmit,
 }) => {
-	const t = useTranslations('auth.login')
-	const tCommon = useTranslations('common')
+  const t = useTranslations('auth.login')
+  const tCommon = useTranslations('common')
 
-	return (
-		<div className="space-y-6">
-			<ModalSwitchLink
-				promptText={t('dontHaveAccount')}
-				linkText={tCommon('signUp')}
-				onClick={() => onSwitchModal('signup')}
-			/>
-			<SocialLoginButtons onSocialLogin={onSocialLogin} />
-			<Divider text={tCommon('orContinueWithEmail')} />
-			<LoginForm onForgotPassword={() => onSwitchModal('forgotPassword')} />
-			<Button variant="ctaBtnModal" className="w-full" onClick={onSubmit}>
-				{t('submit')}
-			</Button>
-		</div>
-	)
+  return (
+    <div className="space-y-6">
+      <ModalSwitchLink
+        promptText={t('dontHaveAccount')}
+        linkText={tCommon('signUp')}
+        onClick={() => onSwitchModal('signup')}
+      />
+      <SocialLoginButtons onSocialLogin={onSocialLogin} />
+      <Divider text={tCommon('orContinueWithEmail')} />
+      <LoginForm onForgotPassword={() => onSwitchModal('forgotPassword')} />
+      <Button variant="ctaBtnModal" className="w-full" onClick={onSubmit}>
+        {t('submit')}
+      </Button>
+    </div>
+  )
 }

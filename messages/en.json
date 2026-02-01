@@ -1,116 +1,116 @@
 {
-	"common": {
-		"searchTemplate": "Search template",
-		"contactUs": "Contact us",
-		"aboutUs": "About us",
-		"navHome": "Home",
-		"navPricing": "Pricing",
-		"loginSignup": "Login/Signup",
-		"login": "Log in",
-		"signUp": "Sign up",
-		"orContinueWithEmail": "Or continue with email",
-		"continueWithGoogle": "Continue with Google",
-		"continueWithFacebook": "Continue with Facebook",
-		"continueWithGithub": "Continue with Github"
-	},
-	"home": {
-		"title": "Ideas making real with FiGen",
-		"subtitle": "From idea to prototype—faster than ever. Design with AI and watch your product come alive.",
-		"ideaPlaceholder": "Describe your design ideas",
-		"prompts": {
-			"onboardingFlow": "Onboarding Flow",
-			"dataDashboard": "Data dashboard",
-			"gradientGallery": "Gradient Gallery"
-		}
-	},
-	"auth": {
-		"login": {
-			"title": "Log in",
-			"dontHaveAccount": "Don't have an account?",
-			"emailLabel": "Email address or phone number",
-			"emailPlaceholder": "Enter your email address or phone number",
-			"passwordLabel": "Password",
-			"passwordPlaceholder": "Enter your password",
-			"rememberMe": "Remember me",
-			"forgotPassword": "Forgot your password?",
-			"submit": "Login"
-		},
-		"signup": {
-			"title": "Sign up",
-			"alreadyHaveAccount": "Already have an account?",
-			"emailLabel": "Email address or phone number",
-			"emailPlaceholder": "Enter your email address or phone number",
-			"passwordLabel": "Password",
-			"passwordPlaceholder": "Enter your password",
-			"confirmPasswordLabel": "Confirm your password",
-			"confirmPasswordPlaceholder": "Enter your password",
-			"newsletter": "Please keep me updated by email with the latest news, event updates",
-			"submit": "Create an account"
-		},
-		"forgotPassword": {
-			"title": "Forgot your password",
-			"description": "Please enter the email address or phone number you'd like your password reset information sent to",
-			"emailLabel": "Email address or phone number",
-			"emailPlaceholder": "Enter your email address or phone number",
-			"requestResetLink": "Request reset link",
-			"backToLogin": "Back to login"
-		}
-	},
-	"footer": {
-		"subscribeNewsletters": "Subscribe Newsletters",
-		"enterYourEmail": "Enter your email",
-		"subscribeNow": "Subscribe Now",
-		"contact": "Contact",
-		"termsOfService": "Terms of Service",
-		"privacyPolicy": "Privacy Policy",
-		"copyright": "© 2025 Figen. All rights reserved.",
-		"product": "PRODUCT",
-		"plans": "PLANS",
-		"useCases": "USE CASES",
-		"resources": "RESOURCES",
-		"company": "COMPANY",
-		"sections": {
-			"product": {
-				"design": "Design",
-				"devMode": "Dev Mode",
-				"ai": "AI",
-				"downloads": "Downloads"
-			},
-			"plans": {
-				"pricing": "Pricing",
-				"enterprise": "Enterprise",
-				"organization": "Organization",
-				"professional": "Professional"
-			},
-			"useCases": {
-				"uiDesign": "UI design",
-				"uxDesign": "UX design",
-				"wireframing": "Wireframing",
-				"diagraming": "Diagraming",
-				"prototyping": "Prototyping",
-				"brainstorming": "Brainstorming",
-				"onlineWhiteboard": "Online Whiteboard",
-				"aiAppBuilder": "AI App Builder",
-				"aiWebsiteBuilder": "AI Website Builder"
-			},
-			"resources": {
-				"blog": "Blog",
-				"bestPractices": "Best Practices",
-				"qrCodeGenerator": "QR code generator",
-				"templates": "Templates",
-				"resourceLibrary": "Resource library",
-				"support": "Support"
-			},
-			"company": {
-				"events": "Events",
-				"customers": "Customers",
-				"careers": "Careers",
-				"investors": "Investors"
-			}
-		}
-	},
-	"metadata": {
-		"title": "FiGen - Ideas making real",
-		"description": "From idea to prototype—faster than ever. Design with AI and watch your product come alive."
-	}
+  "common": {
+    "searchTemplate": "Search template",
+    "contactUs": "Contact us",
+    "aboutUs": "About us",
+    "navHome": "Home",
+    "navPricing": "Pricing",
+    "loginSignup": "Login/Signup",
+    "login": "Log in",
+    "signUp": "Sign up",
+    "orContinueWithEmail": "Or continue with email",
+    "continueWithGoogle": "Continue with Google",
+    "continueWithFacebook": "Continue with Facebook",
+    "continueWithGithub": "Continue with Github"
+  },
+  "home": {
+    "title": "Ideas making real with FiGen",
+    "subtitle": "From idea to prototype—faster than ever. Design with AI and watch your product come alive.",
+    "ideaPlaceholder": "Describe your design ideas",
+    "prompts": {
+      "onboardingFlow": "Onboarding Flow",
+      "dataDashboard": "Data dashboard",
+      "gradientGallery": "Gradient Gallery"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Log in",
+      "dontHaveAccount": "Don't have an account?",
+      "emailLabel": "Email address or phone number",
+      "emailPlaceholder": "Enter your email address or phone number",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot your password?",
+      "submit": "Login"
+    },
+    "signup": {
+      "title": "Sign up",
+      "alreadyHaveAccount": "Already have an account?",
+      "emailLabel": "Email address or phone number",
+      "emailPlaceholder": "Enter your email address or phone number",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "confirmPasswordLabel": "Confirm your password",
+      "confirmPasswordPlaceholder": "Enter your password",
+      "newsletter": "Please keep me updated by email with the latest news, event updates",
+      "submit": "Create an account"
+    },
+    "forgotPassword": {
+      "title": "Forgot your password",
+      "description": "Please enter the email address or phone number you'd like your password reset information sent to",
+      "emailLabel": "Email address or phone number",
+      "emailPlaceholder": "Enter your email address or phone number",
+      "requestResetLink": "Request reset link",
+      "backToLogin": "Back to login"
+    }
+  },
+  "footer": {
+    "subscribeNewsletters": "Subscribe Newsletters",
+    "enterYourEmail": "Enter your email",
+    "subscribeNow": "Subscribe Now",
+    "contact": "Contact",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "copyright": "© 2025 Figen. All rights reserved.",
+    "product": "PRODUCT",
+    "plans": "PLANS",
+    "useCases": "USE CASES",
+    "resources": "RESOURCES",
+    "company": "COMPANY",
+    "sections": {
+      "product": {
+        "design": "Design",
+        "devMode": "Dev Mode",
+        "ai": "AI",
+        "downloads": "Downloads"
+      },
+      "plans": {
+        "pricing": "Pricing",
+        "enterprise": "Enterprise",
+        "organization": "Organization",
+        "professional": "Professional"
+      },
+      "useCases": {
+        "uiDesign": "UI design",
+        "uxDesign": "UX design",
+        "wireframing": "Wireframing",
+        "diagraming": "Diagraming",
+        "prototyping": "Prototyping",
+        "brainstorming": "Brainstorming",
+        "onlineWhiteboard": "Online Whiteboard",
+        "aiAppBuilder": "AI App Builder",
+        "aiWebsiteBuilder": "AI Website Builder"
+      },
+      "resources": {
+        "blog": "Blog",
+        "bestPractices": "Best Practices",
+        "qrCodeGenerator": "QR code generator",
+        "templates": "Templates",
+        "resourceLibrary": "Resource library",
+        "support": "Support"
+      },
+      "company": {
+        "events": "Events",
+        "customers": "Customers",
+        "careers": "Careers",
+        "investors": "Investors"
+      }
+    }
+  },
+  "metadata": {
+    "title": "FiGen - Ideas making real",
+    "description": "From idea to prototype—faster than ever. Design with AI and watch your product come alive."
+  }
 }

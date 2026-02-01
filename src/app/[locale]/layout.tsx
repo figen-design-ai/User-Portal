@@ -9,49 +9,49 @@ import '@/styles/globals.css'
 import { notoSansFont } from '../../fonts/font'
 
 export function generateStaticParams() {
-	return routing.locales.map(locale => ({ locale }))
+  return routing.locales.map(locale => ({ locale }))
 }
 
 export async function generateMetadata({
-	params,
+  params,
 }: {
-	params: Promise<{ locale: string }>
+  params: Promise<{ locale: string }>
 }): Promise<Metadata> {
-	const { locale } = await params
-	const messages = await getMessages({ locale })
+  const { locale } = await params
+  const messages = await getMessages({ locale })
 
-	return {
-		title: messages.metadata?.title || 'FiGen - Ideas making real',
-		description:
-			messages.metadata?.description ||
-			'From idea to prototype—faster than ever. Design with AI and watch your product come alive.',
-	}
+  return {
+    title: messages.metadata?.title || 'FiGen - Ideas making real',
+    description:
+      messages.metadata?.description ||
+      'From idea to prototype—faster than ever. Design with AI and watch your product come alive.',
+  }
 }
 
 export default async function LocaleLayout({
-	children,
-	params,
+  children,
+  params,
 }: {
-	children: React.ReactNode
-	params: Promise<{ locale: string }>
+  children: React.ReactNode
+  params: Promise<{ locale: string }>
 }) {
-	const { locale } = await params
+  const { locale } = await params
 
-	if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
-		notFound()
-	}
+  if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
+    notFound()
+  }
 
-	const messages = await getMessages({ locale })
+  const messages = await getMessages({ locale })
 
-	return (
-		<html lang={locale}>
-			<body className={notoSansFont.variable}>
-				<NextIntlClientProvider messages={messages}>
-					<Providers>
-						<MainLayout>{children}</MainLayout>
-					</Providers>
-				</NextIntlClientProvider>
-			</body>
-		</html>
-	)
+  return (
+    <html lang={locale}>
+      <body className={notoSansFont.variable}>
+        <NextIntlClientProvider messages={messages}>
+          <Providers>
+            <MainLayout>{children}</MainLayout>
+          </Providers>
+        </NextIntlClientProvider>
+      </body>
+    </html>
+  )
 }
