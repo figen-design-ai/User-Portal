@@ -9,37 +9,34 @@ import { Footer } from '@/shared/components/footer'
 import type { HeaderActiveKey } from '@/shared/components/header'
 
 const PATHNAME_TO_ACTIVE_KEY: Record<string, HeaderActiveKey> = {
-	'/': 'home',
-	'/pricing': 'pricing',
-	'/about': 'about',
-	'/contact': 'contact',
+  '/': 'home',
+  '/pricing': 'pricing',
+  '/about': 'about',
+  '/contact': 'contact',
 }
 
 export interface MainLayoutProps {
-	children: React.ReactNode
-	onSubscribe?: (email: string) => void
+  children: React.ReactNode
+  onSubscribe?: (email: string) => void
 }
 
-export const MainLayout: React.FC<MainLayoutProps> = ({
-	children,
-	onSubscribe,
-}) => {
-	const pathname = usePathname()
-	const dispatch = useAppDispatch()
+export const MainLayout: React.FC<MainLayoutProps> = ({ children, onSubscribe }) => {
+  const pathname = usePathname()
+  const dispatch = useAppDispatch()
 
-	const activeKey = PATHNAME_TO_ACTIVE_KEY[pathname] ?? undefined
+  const activeKey = PATHNAME_TO_ACTIVE_KEY[pathname] ?? undefined
 
-	const handleLoginClick = () => {
-		dispatch(openModal('login'))
-	}
+  const handleLoginClick = () => {
+    dispatch(openModal('login'))
+  }
 
-	return (
-		<div className="min-h-screen bg-transparent flex flex-col">
-			<Header activeKey={activeKey} onLoginClick={handleLoginClick} />
-			<main className="flex-1" role="main">
-				{children}
-			</main>
-			<Footer onSubscribe={onSubscribe} />
-		</div>
-	)
+  return (
+    <div className="min-h-screen bg-transparent flex flex-col">
+      <Header activeKey={activeKey} onLoginClick={handleLoginClick} />
+      <main className="flex-1" role="main">
+        {children}
+      </main>
+      <Footer onSubscribe={onSubscribe} />
+    </div>
+  )
 }

@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 @layer base {
-	html,
-	body {
-		@apply text-system-black font-noto font-medium;
-	}
+  html,
+  body {
+    @apply text-system-black font-noto font-medium;
+  }
 }
 
 @layer utilities {
-	.text-balance {
-		text-wrap: balance;
-	}
+  .text-balance {
+    text-wrap: balance;
+  }
 }
