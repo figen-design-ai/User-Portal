@@ -13,6 +13,14 @@
     "continueWithFacebook": "Tiếp tục với Facebook",
     "continueWithGithub": "Tiếp tục với Github"
   },
+  "about": {
+    "title": "Về chúng tôi",
+    "subtitle": "TẠM THỜI: Nội dung Về chúng tôi sẽ được thêm vào đây."
+  },
+  "contact": {
+    "title": "Liên hệ chúng tôi",
+    "subtitle": "TẠM THỜI: Nội dung Liên hệ chúng tôi sẽ được thêm vào đây."
+  },
   "home": {
     "title": "Biến ý tưởng thành hiện thực với FiGen",
     "subtitle": "Từ ý tưởng đến nguyên mẫu—nhanh hơn bao giờ hết. Thiết kế với AI và xem sản phẩm của bạn trở nên sống động.",
