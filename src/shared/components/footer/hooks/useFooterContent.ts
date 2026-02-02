@@ -18,8 +18,8 @@ export const useFooterContent = (): UseFooterContentReturn => {
   const tCommon = useTranslations('common')
 
   const navLinks: FooterNavLink[] = [
-    { href: '#about', label: tCommon('aboutUs') },
-    { href: '#contact', label: t('contact') },
+    { href: '/about', label: tCommon('aboutUs') },
+    { href: '/contact', label: t('contact') },
     { href: '#pricing', label: tCommon('navPricing') },
   ]
 

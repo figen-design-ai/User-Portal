@@ -13,6 +13,78 @@
     "continueWithFacebook": "Tiếp tục với Facebook",
     "continueWithGithub": "Tiếp tục với Github"
   },
+  "about": {
+    "title": "Về chúng tôi",
+    "subtitle": "TẠM THỜI: Nội dung Về chúng tôi sẽ được thêm vào đây."
+  },
+  "contact": {
+    "title": "Liên hệ chúng tôi",
+    "subtitle": "TẠM THỜI: Nội dung Liên hệ chúng tôi sẽ được thêm vào đây.",
+    "supportHubLabel": "Trung tâm hỗ trợ",
+    "heroTitle": "Liên hệ với chúng tôi",
+    "heroDescription": "Có câu hỏi về công cụ AI hoặc cần hỗ trợ thiết kế? Đội ngũ của chúng tôi luôn sẵn sàng hỗ trợ hành trình sáng tạo của bạn.",
+    "commonQuestions": {
+      "title": "Câu hỏi thường gặp",
+      "subtitle": "Câu trả lời nhanh cho các câu hỏi thường gặp.",
+      "q1": {
+        "question": "Công cụ AI tạo nội dung hoạt động như thế nào?",
+        "answer": "Công cụ AI của chúng tôi phân tích ý tưởng và tài liệu tham khảo để tạo giao diện và màn hình trung thực cao. Bạn mô tả nhu cầu bằng ngôn ngữ tự nhiên, AI sẽ tạo bản thiết kế có thể chỉnh sửa và xuất."
+      },
+      "q2": {
+        "question": "Tôi có thể xuất bản thiết kế không?",
+        "answer": "Có. Bạn có thể xuất bản thiết kế sang các định dạng phổ biến và tích hợp vào quy trình thiết kế và phát triển."
+      },
+      "q3": {
+        "question": "Bạn có những gói giá nào?",
+        "answer": "Chúng tôi có các gói linh hoạt cho cá nhân và nhóm. Xem trang Giá để biết các tùy chọn và tính năng mới nhất."
+      },
+      "q4": {
+        "question": "Có giới hạn số lần tạo không?",
+        "answer": "Giới hạn tạo phụ thuộc vào gói của bạn. Chi tiết có trên trang Giá và trong cài đặt tài khoản."
+      },
+      "q5": {
+        "question": "Bạn có hỗ trợ Doanh nghiệp không?",
+        "answer": "Có. Chúng tôi cung cấp thiết lập Doanh nghiệp với điều khoản tùy chỉnh, SSO và hỗ trợ chuyên biệt. Liên hệ để thảo luận yêu cầu của bạn."
+      }
+    },
+    "form": {
+      "title": "Gửi tin nhắn cho chúng tôi",
+      "nameLabel": "Tên của bạn",
+      "namePlaceholder": "Tên",
+      "emailLabel": "Email của bạn",
+      "emailPlaceholder": "abc@company.com",
+      "categoryLabel": "Danh mục vấn đề",
+      "categoryPlaceholder": "Chọn danh mục",
+      "categoryOptions": {
+        "technical": "Kỹ thuật",
+        "billing": "Thanh toán",
+        "design": "Thiết kế",
+        "other": "Khác"
+      },
+      "messageLabel": "Tin nhắn",
+      "messagePlaceholder": "Nội dung tin nhắn...",
+      "privacyLabel": "Tôi đồng ý với chính sách bảo mật và điều khoản dịch vụ.",
+      "submit": "Gửi yêu cầu hỗ trợ",
+      "errors": {
+        "nameRequired": "Vui lòng nhập tên",
+        "emailRequired": "Vui lòng nhập email",
+        "emailInvalid": "Vui lòng nhập email hợp lệ",
+        "categoryRequired": "Vui lòng chọn danh mục",
+        "messageRequired": "Vui lòng nhập tin nhắn",
+        "agreeRequired": "Vui lòng đồng ý với chính sách bảo mật và điều khoản dịch vụ"
+      }
+    },
+    "contactInfo": {
+      "emailLabel": "Email cho chúng tôi",
+      "location": "Tòa TMA",
+      "phoneLabel": "Gọi cho chúng tôi"
+    },
+    "cta": {
+      "title": "Sẵn sàng thay đổi quy trình thiết kế của bạn?",
+      "subtitle": "Tham gia hơn 50.000 nhà thiết kế và lập trình viên xây dựng giao diện với tốc độ tư duy.",
+      "button": "Bắt đầu thiết kế ngay"
+    }
+  },
   "home": {
     "title": "Biến ý tưởng thành hiện thực với FiGen",
     "subtitle": "Từ ý tưởng đến nguyên mẫu—nhanh hơn bao giờ hết. Thiết kế với AI và xem sản phẩm của bạn trở nên sống động.",

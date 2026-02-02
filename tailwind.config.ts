@@ -100,6 +100,7 @@ const config: Config = {
       },
       fontFamily: {
         noto: ['var(--noto-sans-font)', 'Noto Sans'],
+        inter: ['var(--inter-font)', 'Inter', 'sans-serif'],
         kleeOne: ['var(--klee-one-font)', 'Klee One', 'serif'],
       },
       fontSize: {
@@ -156,6 +157,9 @@ const config: Config = {
         normal: '400',
         medium: '500',
         bold: '700',
+      },
+      backgroundImage: {
+        'hero-gradient': 'linear-gradient(180deg, #fff5f7 0%, #fff5f7 33.33%, #ffffff 66.67%)',
       },
     },
   },
