@@ -6,3 +6,9 @@ export interface PromptButton {
 export interface HomePageProps {
   // Add props here if needed in the future
 }
+
+export interface FeatureItem {
+  icon: string
+  title: string
+  description: string
+}

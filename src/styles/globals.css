@@ -5,7 +5,7 @@
 @layer base {
   html,
   body {
-    @apply text-system-black font-noto font-medium;
+    @apply text-system-black font-nunito font-medium;
   }
 }
 
