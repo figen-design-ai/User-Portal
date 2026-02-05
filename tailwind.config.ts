@@ -30,7 +30,7 @@ const config: Config = {
           '500': '#1A1C21',
         },
         pink: {
-          '100': '#ABEB68',
+          '100': '#FFE4EB',
           '200': '#FFCEDA',
           '300': '#FFACC1',
           '400': '#FF81A1',
@@ -87,6 +87,9 @@ const config: Config = {
           validation: '#FFD748',
         },
       },
+      backgroundImage: {
+        'main-gradient': 'linear-gradient(180deg, #fff5f7 0%, #fff5f7 33.33%, #ffffff 66.67%)',
+      },
       zIndex: {
         1: '1',
         2: '2',
@@ -99,7 +102,7 @@ const config: Config = {
         9: '9',
       },
       fontFamily: {
-        noto: ['var(--noto-sans-font)', 'Noto Sans'],
+        nunito: ['var(--nunito-font)'],
         kleeOne: ['var(--klee-one-font)', 'Klee One', 'serif'],
       },
       fontSize: {
@@ -123,6 +126,12 @@ const config: Config = {
         ],
         'h-4': [
           '1.75rem', //28
+          {
+            lineHeight: '1.2',
+          },
+        ],
+        'h-5': [
+          '1.5rem', //24
           {
             lineHeight: '1.2',
           },
