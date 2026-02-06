@@ -16,6 +16,7 @@ const config: Config = {
           '60': '#00000099',
           '20': '#00000033',
           dark: '#1F2024',
+          slate: '#1E293B',
         },
         gray: {
           DEFAULT: '#D9D9D9',
@@ -30,7 +31,7 @@ const config: Config = {
           '500': '#1A1C21',
         },
         pink: {
-          '100': '#ABEB68',
+          '100': '#FFE4EB',
           '200': '#FFCEDA',
           '300': '#FFACC1',
           '400': '#FF81A1',
@@ -54,6 +55,11 @@ const config: Config = {
         },
         red: {
           DEFAULT: '#E43B3B',
+        },
+        slate: {
+          '400': '#94A3B8',
+          '500': '#64748B',
+          '600': '#475569',
         },
         purple: {
           light: '#9747FF1A',
@@ -99,13 +105,19 @@ const config: Config = {
         9: '9',
       },
       fontFamily: {
-        noto: ['var(--noto-sans-font)', 'Noto Sans'],
-        inter: ['var(--inter-font)', 'Inter', 'sans-serif'],
+        nunito: ['var(--nunito-font)'],
         kleeOne: ['var(--klee-one-font)', 'Klee One', 'serif'],
+        inter: ['var(--inter-font)', 'Inter', 'sans-serif'],
       },
       fontSize: {
         'h-1': [
           '3.5rem', //56
+          {
+            lineHeight: '1.2',
+          },
+        ],
+        logo: [
+          '3rem', // 48
           {
             lineHeight: '1.2',
           },
@@ -123,7 +135,13 @@ const config: Config = {
           },
         ],
         'h-4': [
-          '1.75rem', //28
+          '1.25rem', // 20px
+          {
+            lineHeight: '1.2',
+          },
+        ],
+        'h-5': [
+          '1.5rem', //24
           {
             lineHeight: '1.2',
           },
@@ -140,22 +158,24 @@ const config: Config = {
             lineHeight: '1.2',
           },
         ],
-        logo: [
-          '3rem', // 48
-          {
-            lineHeight: '1.2',
-          },
-        ],
         small: [
           '1rem', //16
           {
             lineHeight: '1.2',
           },
         ],
+        xs: [
+          '0.875rem', //14
+          {
+            lineHeight: '1.2',
+          },
+        ],
       },
       fontWeight: {
+        light: '300',
         normal: '400',
         medium: '500',
+        semibold: '600',
         bold: '700',
       },
       backgroundImage: {

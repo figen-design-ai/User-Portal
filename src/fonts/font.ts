@@ -1,15 +1,15 @@
-import { Inter, Noto_Sans } from 'next/font/google'
+import { Inter, Nunito } from 'next/font/google'
 
-export const notoSansFont = Noto_Sans({
+export const nunitoFont = Nunito({
   weight: ['400', '500', '600', '700', '800'],
   display: 'swap',
   subsets: ['latin'],
-  variable: '--noto-sans-font',
-  fallback: ['Noto Sans', 'sans-serif'],
+  variable: '--nunito-font',
+  fallback: ['Nunito', 'sans-serif'],
 })
 
 export const interFont = Inter({
-  weight: ['600'],
+  weight: ['400', '600'],
   display: 'swap',
   subsets: ['latin'],
   variable: '--inter-font',

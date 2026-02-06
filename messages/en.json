@@ -22,7 +22,8 @@
     "subtitle": "TEMPORARY: Contact Us content will be added here.",
     "supportHubLabel": "Support Hub",
     "heroTitle": "Get in Touch",
-    "heroDescription": "Have questions about our AI engine or need help with your designs? Our team is here to support your creative journey.",
+    "heroQuestion": "Have questions about our AI engine or need help with your designs?",
+    "heroAnswer": "Our team is here to support your creative journey.",
     "commonQuestions": {
       "title": "Common Questions",
       "subtitle": "Quick answers to frequently asked questions.",
@@ -86,14 +87,31 @@
     }
   },
   "home": {
-    "title": "Ideas making real with FiGen",
-    "subtitle": "From idea to prototype—faster than ever. Design with AI and watch your product come alive.",
-    "ideaPlaceholder": "Describe your design ideas",
+    "appName": "FiGen",
+    "title": "Ideas making real with",
+    "ideaPlaceholder": "Type a prompt to generate UI (e.g., A minimalist shop)",
+    "tryText": "Try",
     "prompts": {
       "onboardingFlow": "Onboarding Flow",
       "dataDashboard": "Data dashboard",
       "gradientGallery": "Gradient Gallery"
-    }
+    },
+    "subtitle": "Engineered for Speed",
+    "description": "Experience the future of design workflows with our powerful AI engine, built for developers and designers alike.",
+    "features": [
+      {
+        "title": "Fast Generation",
+        "description": "Generate complex, responsive layouts in seconds using natural language instructions. No more blank canvases."
+      },
+      {
+        "title": "React/Vue Export",
+        "description": "Get production-ready, clean code exports for your favorite frameworks. Optimized for performance and readability."
+      },
+      {
+        "title": "Customizable Styles",
+        "description": "Tailor every element to match your brand’s unique design system with precision controls and AI guidance."
+      }
+    ]
   },
   "auth": {
     "login": {

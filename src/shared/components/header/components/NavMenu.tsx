@@ -12,7 +12,7 @@ export interface NavMenuProps {
 
 export const NavMenu: React.FC<NavMenuProps> = ({ activeKey, items }) => (
   <nav
-    className="hidden md:flex items-center justify-center gap-6 flex-1"
+    className="hidden md:flex items-center justify-center gap-20 flex-1"
     aria-label="Main navigation"
   >
     {items.map(({ key, href, label }) => {

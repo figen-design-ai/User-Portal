@@ -39,7 +39,11 @@ export const FooterNavAndSocial: React.FC<FooterNavAndSocialProps> = ({ navLinks
               className="flex items-center justify-center w-8 h-8 text-black-dark"
               role="listitem"
             >
-              <Image src={icon} alt="" width={20} height={20} className="shrink-0" />
+              <Image
+                src={icon}
+                alt={`footer-social-${label.toLowerCase()}`}
+                className="shrink-0 w-7 h-auto"
+              />
             </a>
           ))}
         </div>
