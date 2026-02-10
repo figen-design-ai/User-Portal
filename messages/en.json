@@ -129,5 +129,57 @@
   "metadata": {
     "title": "FiGen - Ideas making real",
     "description": "From idea to prototype—faster than ever. Design with AI and watch your product come alive."
+  },
+  "aboutUs": {
+    "ourMission": {
+      "badge": "Our Mission",
+      "heading": {
+        "primary": "Human Creativity.",
+        "highlight": "AI Precision."
+      },
+      "description": "We're building the infrastructure for the next generation of digital products, empowering creators to go from concept to high-fidelity interface in seconds.",
+      "stats": [
+        {
+          "value": "1M+",
+          "label": "Components Generated"
+        },
+        {
+          "value": "50k+",
+          "label": "Active Designers"
+        },
+        {
+          "value": "99%",
+          "label": "Time Saved"
+        },
+        {
+          "value": "120+",
+          "label": "Countries Reached"
+        }
+      ]
+    },
+    "ourValues": {
+      "title": "Our Values",
+      "subtitle": "The core principles that drive our innovation every day.",
+      "values": [
+        {
+          "title": "Radical Speed",
+          "description": "We believe that the best ideas should manifest instantly. We optimize every millisecond of our engine to keep you in the flow."
+        },
+        {
+          "title": "Design Fidelity",
+          "description": "AI shouldn't just be fast; it should be beautiful. We prioritize aesthetics and accessibility in every layout we generate."
+        },
+        {
+          "title": "Developer Friendly",
+          "description": "Output isn't just an image; it's production-ready code. We ensure every generation respects clean architecture and responsiveness."
+        }
+      ]
+    },
+    "startDesigning": {
+      "title": "Ready to transform your design workflow?",
+      "description": "Join over 50,000 designers and developers building interfaces at the speed of thought.",
+      "btnText": "Start Designing Now",
+      "btnLink": "/signup"
+    }
   }
 }
