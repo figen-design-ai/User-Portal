@@ -2,23 +2,19 @@
 
 import React from 'react'
 import { useTranslations } from 'next-intl'
+import { cn } from '@/shared/utils'
 import { Button } from '@/shared/components/Button'
-import { useContactForm } from './useContactForm'
+import { useContactForm } from '../../hooks/useContactForm'
 import { ContactFormFields } from './ContactFormFields'
 import { ContactInfoBlock } from './ContactInfoBlock'
+import styles from '../../styles/contact.module.css'
 
 export const ContactFormSection: React.FC = () => {
-  const t = useTranslations('contact.form')
+  const t = useTranslations('contact.contactForm')
   const { register, control, handleSubmit, errors, isSubmitting } = useContactForm()
 
   return (
-    <section
-      className={[
-        'w-full bg-white rounded-[24px] border-[0.5px] border-[var(--border,#898F9880)] shadow-[0px_0px_16px_1px_#00000012]',
-        'pt-[32px] pr-[35px] pl-[35px] pb-[32px]',
-      ].join(' ')}
-      aria-labelledby="contact-form-heading"
-    >
+    <section className={styles.cardContactForm} aria-labelledby="contact-form-heading">
       <h2 id="contact-form-heading" className="text-h-3 font-bold text-black-dark mb-6">
         {t('title')}
       </h2>
@@ -28,10 +24,10 @@ export const ContactFormSection: React.FC = () => {
           type="submit"
           size="lg"
           disabled={isSubmitting}
-          className={[
+          className={cn(
             'w-full md:w-auto bg-pink-600 border-pink-600 text-white',
-            'hover:bg-pink-500 hover:border-pink-500',
-          ].join(' ')}
+            'hover:bg-pink-500 hover:border-pink-500'
+          )}
         >
           {t('submit')}
         </Button>

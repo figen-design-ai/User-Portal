@@ -7,6 +7,7 @@ interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
   wrapperClassName?: string
   labelClassName?: string
   errorClassName?: string
+  showRequiredIndicator?: boolean
 }
 
 export const Input: React.FC<InputProps> = ({
@@ -16,6 +17,7 @@ export const Input: React.FC<InputProps> = ({
   wrapperClassName,
   labelClassName,
   errorClassName,
+  showRequiredIndicator = false,
   ...props
 }) => {
   return (
@@ -23,6 +25,7 @@ export const Input: React.FC<InputProps> = ({
       {label && (
         <label className={cn('block text-sm font-medium text-black-dark mb-1.5', labelClassName)}>
           {label}
+          {showRequiredIndicator && <span className="text-red ml-1">*</span>}
         </label>
       )}
       <input

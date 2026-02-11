@@ -1,13 +1,15 @@
-import { useMemo, useCallback } from 'react'
+import React, { useMemo, useCallback } from 'react'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
 import { useTranslations } from 'next-intl'
-import type { FormState } from './types'
+import type { ContactFormState } from '../types'
+
+type ContactFormTranslations = ReturnType<typeof useTranslations<'contact.contactForm'>>
 
 export const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 
-const DEFAULT_VALUES: FormState = {
+const DEFAULT_VALUES: ContactFormState = {
   name: '',
   email: '',
   category: '',
@@ -15,7 +17,7 @@ const DEFAULT_VALUES: FormState = {
   agreePrivacy: false,
 }
 
-const buildContactFormSchema = (t: (key: string) => string) =>
+const buildContactFormSchema = (t: ContactFormTranslations) =>
   z.object({
     name: z.string().min(1, t('errors.nameRequired')),
     email: z
@@ -32,7 +34,7 @@ const buildContactFormSchema = (t: (key: string) => string) =>
 export type ContactFormSchema = z.infer<ReturnType<typeof buildContactFormSchema>>
 
 export const useContactForm = () => {
-  const t = useTranslations('contact.form')
+  const t = useTranslations('contact.contactForm')
   const schema = useMemo(() => buildContactFormSchema(t), [t])
 
   const {
@@ -40,7 +42,7 @@ export const useContactForm = () => {
     control,
     handleSubmit: rhfHandleSubmit,
     formState: { errors, isSubmitting },
-  } = useForm<FormState>({
+  } = useForm<ContactFormState>({
     resolver: zodResolver(schema),
     defaultValues: DEFAULT_VALUES,
   })

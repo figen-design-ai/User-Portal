@@ -14,12 +14,10 @@
     "continueWithGithub": "Tiếp tục với Github"
   },
   "about": {
-    "title": "Về chúng tôi",
-    "subtitle": "TẠM THỜI: Nội dung Về chúng tôi sẽ được thêm vào đây."
+    "title": "Về chúng tôi"
   },
   "contact": {
     "title": "Liên hệ chúng tôi",
-    "subtitle": "TẠM THỜI: Nội dung Liên hệ chúng tôi sẽ được thêm vào đây.",
     "supportHubLabel": "Trung tâm hỗ trợ",
     "heroTitle": "Liên hệ với chúng tôi",
     "heroQuestion": "Có câu hỏi về công cụ AI hoặc cần hỗ trợ thiết kế?",
@@ -48,7 +46,7 @@
         "answer": "Có. Chúng tôi cung cấp thiết lập Doanh nghiệp với điều khoản tùy chỉnh, SSO và hỗ trợ chuyên biệt. Liên hệ để thảo luận yêu cầu của bạn."
       }
     },
-    "form": {
+    "contactForm": {
       "title": "Gửi tin nhắn cho chúng tôi",
       "nameLabel": "Tên của bạn",
       "namePlaceholder": "Tên",
@@ -76,11 +74,11 @@
       }
     },
     "contactInfo": {
-      "emailLabel": "Email cho chúng tôi",
-      "location": "Tòa TMA",
-      "phoneLabel": "Gọi cho chúng tôi"
+      "emailAriaLabel": "Email cho chúng tôi",
+      "locationText": "Tòa TMA",
+      "phoneAriaLabel": "Gọi cho chúng tôi"
     },
-    "cta": {
+    "ctaSection": {
       "title": "Sẵn sàng thay đổi quy trình thiết kế của bạn?",
       "subtitle": "Tham gia hơn 50.000 nhà thiết kế và lập trình viên xây dựng giao diện với tốc độ tư duy.",
       "button": "Bắt đầu thiết kế ngay"
@@ -202,5 +200,57 @@
   "metadata": {
     "title": "FiGen - Biến ý tưởng thành hiện thực",
     "description": "Từ ý tưởng đến nguyên mẫu—nhanh hơn bao giờ hết. Thiết kế với AI và xem sản phẩm của bạn trở nên sống động."
+  },
+  "aboutUs": {
+    "ourMission": {
+      "badge": "Sứ mệnh của chúng tôi",
+      "heading": {
+        "primary": "Sáng tạo của con người.",
+        "highlight": "Độ chính xác của AI."
+      },
+      "description": "Chúng tôi đang xây dựng cơ sở hạ tầng cho thế hệ sản phẩm kỹ thuật số tiếp theo, giúp các nhà sáng tạo chuyển từ ý tưởng sang giao diện độ trung thực cao chỉ trong vài giây.",
+      "stats": [
+        {
+          "value": "1M+",
+          "label": "Các thành phần đã tạo"
+        },
+        {
+          "value": "50k+",
+          "label": "Nhà thiết kế hoạt động"
+        },
+        {
+          "value": "99%",
+          "label": "Thời gian tiết kiệm"
+        },
+        {
+          "value": "120+",
+          "label": "Các quốc gia đã tiếp cận"
+        }
+      ]
+    },
+    "ourValues": {
+      "title": "Giá trị cốt lõi của chúng tôi",
+      "subtitle": "Những nguyên tắc cốt lõi thúc đẩy sự đổi mới của chúng tôi mỗi ngày.",
+      "values": [
+        {
+          "title": "Tốc độ cực nhanh",
+          "description": "Chúng tôi tin rằng những ý tưởng tốt nhất nên được hiện thực hóa ngay lập tức. Chúng tôi tối ưu từng mili giây của động cơ để giữ bạn trong dòng chảy."
+        },
+        {
+          "title": "Độ chính xác trong thiết kế",
+          "description": "AI không chỉ nhanh; nó còn phải đẹp. Chúng tôi ưu tiên thẩm mỹ và khả năng truy cập trong mọi bố cục mà chúng tôi tạo ra."
+        },
+        {
+          "title": "Thân thiện với nhà phát triển",
+          "description": "Output không chỉ là một hình ảnh; đó là mã sẵn sàng cho sản xuất. Chúng tôi đảm bảo mỗi lần tạo ra đều tôn trọng kiến trúc sạch và khả năng phản hồi."
+        }
+      ]
+    },
+    "startDesigning": {
+      "title": "Sẵn sàng để biến đổi quy trình thiết kế của bạn?",
+      "description": "Tham gia cùng hơn 50.000 nhà thiết kế và nhà phát triển xây dựng giao diện với tốc độ suy nghĩ.",
+      "btnText": "Bắt đầu thiết kế ngay",
+      "btnLink": "/signup"
+    }
   }
 }

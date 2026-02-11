@@ -11,7 +11,7 @@ import type { HeaderActiveKey } from '@/shared/components/header'
 const PATHNAME_TO_ACTIVE_KEY: Record<string, HeaderActiveKey> = {
   '/': 'home',
   '/pricing': 'pricing',
-  '/about': 'about',
+  '/about-us': 'about',
   '/contact': 'contact',
 }
 

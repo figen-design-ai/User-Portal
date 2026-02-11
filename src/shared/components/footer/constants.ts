@@ -2,7 +2,7 @@ import facebookIcon from '@/assets/shared/icon-facebook-black.svg'
 import xIcon from '@/assets/shared/icon-x-black.svg'
 import vimeoIcon from '@/assets/shared/icon-vimeo-black.svg'
 import youtubeIcon from '@/assets/shared/icon-youtube-black.svg'
-import bottomBg from '@/assets/shared/bottom_bg.png'
+import bottomBg from '@/assets/shared/bottom-bg.png'
 
 export const FOOTER_SOCIAL_LINKS = [
   { href: 'https://www.facebook.com/', icon: facebookIcon, label: 'Facebook' },

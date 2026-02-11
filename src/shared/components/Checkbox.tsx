@@ -6,6 +6,7 @@ interface CheckboxProps extends Omit<React.InputHTMLAttributes<HTMLInputElement>
   labelClassName?: string
   inputClassName?: string
   labelTextClassName?: string
+  showRequiredIndicator?: boolean
 }
 
 export const Checkbox: React.FC<CheckboxProps> = ({
@@ -14,6 +15,7 @@ export const Checkbox: React.FC<CheckboxProps> = ({
   labelClassName,
   inputClassName,
   labelTextClassName,
+  showRequiredIndicator = false,
   ...props
 }) => {
   return (
@@ -26,7 +28,12 @@ export const Checkbox: React.FC<CheckboxProps> = ({
         )}
         {...props}
       />
-      {label && <span className={cn('text-sm text-black-dark', labelTextClassName)}>{label}</span>}
+      {label && (
+        <span className={cn('text-sm text-black-dark', labelTextClassName)}>
+          {label}
+          {showRequiredIndicator && <span className="text-red ml-1">*</span>}
+        </span>
+      )}
     </label>
   )
 }

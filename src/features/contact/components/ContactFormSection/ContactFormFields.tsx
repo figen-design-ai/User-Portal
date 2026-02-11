@@ -7,12 +7,12 @@ import { Input } from '@/shared/components/Input'
 import { Checkbox } from '@/shared/components/Checkbox'
 import { CategorySelectField } from './CategorySelectField'
 import { MessageTextField } from './MessageTextField'
-import type { FormState } from './types'
+import type { ContactFormState } from '../../types'
 
 interface ContactFormFieldsProps {
-  register: UseFormRegister<FormState>
-  control: Control<FormState>
-  errors: FieldErrors<FormState>
+  register: UseFormRegister<ContactFormState>
+  control: Control<ContactFormState>
+  errors: FieldErrors<ContactFormState>
 }
 
 const CONTACT_INPUT_LABEL_CLASS = 'text-small font-bold text-gray-300'
@@ -23,7 +23,7 @@ export const ContactFormFields: React.FC<ContactFormFieldsProps> = ({
   control,
   errors,
 }) => {
-  const t = useTranslations('contact.form')
+  const t = useTranslations('contact.contactForm')
   return (
     <>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -34,6 +34,7 @@ export const ContactFormFields: React.FC<ContactFormFieldsProps> = ({
           {...register('name')}
           error={errors.name?.message}
           aria-required
+          showRequiredIndicator
         />
         <Input
           label={t('emailLabel')}
@@ -43,6 +44,7 @@ export const ContactFormFields: React.FC<ContactFormFieldsProps> = ({
           {...register('email')}
           error={errors.email?.message}
           aria-required
+          showRequiredIndicator
         />
       </div>
       <CategorySelectField register={register} errors={errors} />
@@ -59,6 +61,7 @@ export const ContactFormFields: React.FC<ContactFormFieldsProps> = ({
               onBlur={field.onBlur}
               aria-invalid={!!errors.agreePrivacy}
               labelTextClassName={CONTACT_CHECKBOX_LABEL_TEXT_CLASS}
+              showRequiredIndicator
             />
             {errors.agreePrivacy?.message && (
               <p className="text-sm text-red" role="alert">

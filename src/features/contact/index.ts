@@ -1,2 +1,2 @@
-export * from './views'
+export { ContactPage } from './views/ContactPage'
 export * from './types'

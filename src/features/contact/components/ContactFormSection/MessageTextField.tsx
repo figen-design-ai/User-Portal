@@ -3,19 +3,22 @@
 import React from 'react'
 import { useTranslations } from 'next-intl'
 import { cn } from '@/shared/utils'
-import type { FormState } from './types'
+import type { ContactFormState } from '../../types'
 import type { UseFormRegister, FieldErrors } from 'react-hook-form'
 
 interface MessageTextFieldProps {
-  register: UseFormRegister<FormState>
-  errors: FieldErrors<FormState>
+  register: UseFormRegister<ContactFormState>
+  errors: FieldErrors<ContactFormState>
 }
 
 export const MessageTextField: React.FC<MessageTextFieldProps> = ({ register, errors }) => {
-  const t = useTranslations('contact.form')
+  const t = useTranslations('contact.contactForm')
   return (
     <div className="w-full">
-      <label className="block text-sm font-bold text-gray-300">{t('messageLabel')}</label>
+      <label className="block text-sm font-bold text-gray-300">
+        {t('messageLabel')}
+        <span className="text-red ml-1">*</span>
+      </label>
       <textarea
         {...register('message')}
         placeholder={t('messagePlaceholder')}

@@ -1,13 +1,12 @@
 'use client'
 
-import React from 'react'
-import { AboutPage } from '@/features/about'
+import { AboutUsPage } from '@/features/about-us'
 import { AuthModal } from '@/features/auth'
 
 export default function Page() {
   return (
     <>
-      <AboutPage />
+      <AboutUsPage />
       <AuthModal />
     </>
   )

@@ -8,15 +8,10 @@ export const SupportHubSection: React.FC = () => {
 
   return (
     <section
-      className={['w-full bg-pink-200 rounded-[24px] px-4', 'pt-[42px] pb-[42px]'].join(' ')}
+      className="w-full bg-pink-200 rounded-[24px] px-4 pt-[42px] pb-[42px]"
       aria-label={t('supportHubLabel')}
     >
-      <div
-        className={[
-          'flex flex-col items-center text-center gap-6 max-w-4xl mx-auto',
-          'pt-[8px] pb-[8px]',
-        ].join(' ')}
-      >
+      <div className="flex flex-col items-center text-center gap-6 max-w-4xl mx-auto pt-[8px] pb-[8px]">
         <span
           className="bg-pink-400 text-body font-semibold text-gray-500 px-4 py-1 rounded-full"
           aria-label={t('supportHubLabel')}
