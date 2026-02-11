@@ -1,6 +1,5 @@
 'use client'
 
-import React from 'react'
 import { AboutUsPage } from '@/features/about-us'
 import { AuthModal } from '@/features/auth'
 

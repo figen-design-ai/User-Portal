@@ -6,7 +6,6 @@ import { routing } from '@/i18n/routing'
 import { Providers } from '../providers'
 import { MainLayout } from '@/shared/layouts'
 import '@/styles/globals.css'
-import { nunitoFont, interFont } from '../../fonts/font'
 
 export function generateStaticParams() {
   return routing.locales.map(locale => ({ locale }))
@@ -44,14 +43,10 @@ export default async function LocaleLayout({
   const messages = await getMessages({ locale })
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <body className={`${nunitoFont.variable} ${interFont.variable}`} suppressHydrationWarning>
-        <NextIntlClientProvider messages={messages}>
-          <Providers>
-            <MainLayout>{children}</MainLayout>
-          </Providers>
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider messages={messages}>
+      <Providers>
+        <MainLayout>{children}</MainLayout>
+      </Providers>
+    </NextIntlClientProvider>
   )
 }
