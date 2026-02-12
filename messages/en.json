@@ -13,6 +13,77 @@
     "continueWithFacebook": "Continue with Facebook",
     "continueWithGithub": "Continue with Github"
   },
+  "about": {
+    "title": "About Us"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "supportHubLabel": "Support Hub",
+    "heroTitle": "Get in Touch",
+    "heroQuestion": "Have questions about our AI engine or need help with your designs?",
+    "heroAnswer": "Our team is here to support your creative journey.",
+    "commonQuestions": {
+      "title": "Common Questions",
+      "subtitle": "Quick answers to frequently asked questions.",
+      "q1": {
+        "question": "How does the AI generation work?",
+        "answer": "Our AI engine analyzes your design ideas and references to generate high-fidelity UI components and screens. You describe what you need in natural language, and the AI produces editable designs that you can refine and export."
+      },
+      "q2": {
+        "question": "Can I export my designs?",
+        "answer": "Yes. You can export your designs in common formats and integrate with your design and development workflow."
+      },
+      "q3": {
+        "question": "What pricing plans do you offer?",
+        "answer": "We offer flexible plans for individuals and teams. Check our Pricing page for the latest options and features."
+      },
+      "q4": {
+        "question": "Is there a limit to generations?",
+        "answer": "Generation limits depend on your plan. Details are available on the Pricing page and in your account settings."
+      },
+      "q5": {
+        "question": "Do you have Enterprise setup?",
+        "answer": "Yes. We provide Enterprise setup with custom terms, SSO, and dedicated support. Contact us to discuss your requirements."
+      }
+    },
+    "contactForm": {
+      "title": "Send us a message",
+      "nameLabel": "Your Name",
+      "namePlaceholder": "Name",
+      "emailLabel": "Your Email",
+      "emailPlaceholder": "abc@company.com",
+      "categoryLabel": "Issue Category",
+      "categoryPlaceholder": "Select category",
+      "categoryOptions": {
+        "technical": "Technical",
+        "billing": "Billing",
+        "design": "Design",
+        "other": "Other"
+      },
+      "messageLabel": "Message",
+      "messagePlaceholder": "Your message...",
+      "privacyLabel": "I agree to the privacy policy and terms of service.",
+      "submit": "Submit Support Ticket",
+      "errors": {
+        "nameRequired": "Name is required",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email",
+        "categoryRequired": "Please select a category",
+        "messageRequired": "Message is required",
+        "agreeRequired": "Please agree to the privacy policy and terms of service"
+      }
+    },
+    "contactInfo": {
+      "emailAriaLabel": "Email us",
+      "locationText": "TMA Tower",
+      "phoneAriaLabel": "Call us"
+    },
+    "ctaSection": {
+      "title": "Ready to transform your design workflow?",
+      "subtitle": "Join over 50,000 designers and developers building interfaces at the speed of thought.",
+      "button": "Start Designing Now"
+    }
+  },
   "home": {
     "appName": "FiGen",
     "title": "Ideas making real with",

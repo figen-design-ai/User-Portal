@@ -22,6 +22,6 @@ export const NAV_ITEMS: {
 }[] = [
   { key: 'home', href: '/', labelKey: 'navHome' },
   { key: 'pricing', href: '#pricing', labelKey: 'navPricing' },
-  { key: 'about', href: '#about', labelKey: 'aboutUs' },
-  { key: 'contact', href: '#contact', labelKey: 'contactUs' },
+  { key: 'about', href: '/about-us', labelKey: 'aboutUs' },
+  { key: 'contact', href: '/contact', labelKey: 'contactUs' },
 ]

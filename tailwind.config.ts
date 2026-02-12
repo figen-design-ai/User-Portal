@@ -16,6 +16,7 @@ const config: Config = {
           '60': '#00000099',
           '20': '#00000033',
           dark: '#1F2024',
+          slate: '#1E293B',
         },
         gray: {
           DEFAULT: '#D9D9D9',
@@ -55,6 +56,11 @@ const config: Config = {
         red: {
           DEFAULT: '#E43B3B',
         },
+        slate: {
+          '400': '#94A3B8',
+          '500': '#64748B',
+          '600': '#475569',
+        },
         purple: {
           light: '#9747FF1A',
           DEFAULT: '#9747FF',
@@ -87,9 +93,6 @@ const config: Config = {
           validation: '#FFD748',
         },
       },
-      backgroundImage: {
-        'main-gradient': 'linear-gradient(180deg, #fff5f7 0%, #fff5f7 33.33%, #ffffff 66.67%)',
-      },
       zIndex: {
         1: '1',
         2: '2',
@@ -104,10 +107,17 @@ const config: Config = {
       fontFamily: {
         nunito: ['var(--nunito-font)'],
         kleeOne: ['var(--klee-one-font)', 'Klee One', 'serif'],
+        inter: ['var(--inter-font)', 'Inter', 'sans-serif'],
       },
       fontSize: {
         'h-1': [
           '3.5rem', //56
+          {
+            lineHeight: '1.2',
+          },
+        ],
+        logo: [
+          '3rem', // 48
           {
             lineHeight: '1.2',
           },
@@ -125,7 +135,7 @@ const config: Config = {
           },
         ],
         'h-4': [
-          '1.75rem', //28
+          '1.25rem', // 20px
           {
             lineHeight: '1.2',
           },
@@ -148,23 +158,28 @@ const config: Config = {
             lineHeight: '1.2',
           },
         ],
-        logo: [
-          '3rem', // 48
-          {
-            lineHeight: '1.2',
-          },
-        ],
         small: [
           '1rem', //16
           {
             lineHeight: '1.2',
           },
         ],
+        xs: [
+          '0.875rem', //14
+          {
+            lineHeight: '1.2',
+          },
+        ],
       },
       fontWeight: {
+        light: '300',
         normal: '400',
         medium: '500',
+        semibold: '600',
         bold: '700',
+      },
+      backgroundImage: {
+        'hero-gradient': 'linear-gradient(180deg, #fff5f7 0%, #fff5f7 33.33%, #ffffff 66.67%)',
       },
     },
   },

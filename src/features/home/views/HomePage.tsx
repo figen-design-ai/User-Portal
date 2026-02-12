@@ -15,7 +15,7 @@ export const HomePage: React.FC = () => {
   const handlePromptClick = () => {}
 
   return (
-    <div className="relative min-h-screen flex flex-col items-center justify-center px-4 py-20 bg-main-gradient">
+    <div className="relative min-h-screen flex flex-col items-center justify-center px-4 py-20 bg-hero-gradient">
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" />
       <div className="relative z-10 w-full max-w-5xl mx-auto flex flex-col gap-20">
         <div className="flex flex-col items-center text-center space-y-8 flex-1 justify-center">

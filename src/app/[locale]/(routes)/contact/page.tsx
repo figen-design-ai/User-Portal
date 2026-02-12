@@ -1,12 +1,12 @@
 'use client'
 
-import { AboutUsPage } from '@/features/about-us'
+import { ContactPage } from '@/features/contact'
 import { AuthModal } from '@/features/auth'
 
 export default function Page() {
   return (
     <>
-      <AboutUsPage />
+      <ContactPage />
       <AuthModal />
     </>
   )
